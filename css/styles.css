@@ -40,8 +40,19 @@ body {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   outline: 2px solid tomato;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 /* logo */
 .logo {
@@ -68,33 +79,68 @@ body {
 }
 /* navigation */
 
-.nav {
+.link {
+  background-color: tomato;
+  display: block;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   color: var(--title-text-color);
 }
-.nav:hover,
-.nav:focus {
+.link:hover,
+.link:focus {
   color: var(--hover-focus-color);
 }
-.nav .active {
+.link.active {
   color: var(--buttons-bgc-color);
 }
+
+.nav {
+  display: flex;
+  margin-left: 76px;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
 .contact {
+  background-color: tomato;
+  display: block;
   color: var(--primary-text-color);
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+
 .contact:hover,
 .contact:focus {
   color: var(--hover-focus-color);
+}
+
+.contacts {
+  display: flex;
+}
+
+.contact-item {
+  margin-right: 40px;
+}
+.contact-item:last-child {
+  margin-right: 0;
 }
 /* hero */
 .hero-section {
@@ -251,7 +297,8 @@ body {
   background-color: var(--lightmode-color);
   color: var(--buttons-bgc-color);
 
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   align-items: center;
 }
