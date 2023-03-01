@@ -15,7 +15,7 @@
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="container main-nav">
         <nav class="navigation">
           <!-- logo -->
           <a href="./index.html" class="logo"
@@ -23,20 +23,24 @@
           >
           <!-- nagivation list -->
           <ul class="nav list">
-            <li><a href="./index.html" class="nav">Studio</a></li>
-            <li><a href="./portfolio.html" class="nav active">Portfolio</a></li>
-            <li><a href="" class="nav">Contacts</a></li>
+            <li class="item">
+              <a href="./index.html" class="link">Studio</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link active">Portfolio</a>
+            </li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
           </ul>
         </nav>
 
-        <address>
-          <ul class="contact list">
-            <li>
+        <address class="address-list">
+          <ul class="contacts list">
+            <li class="item">
               <a href="mailto:info@devstudio.com" class="contact"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="item">
               <a href="tel:+110001111111" class="contact"
                 >+11 (000) 111-11-11</a
               >
@@ -50,26 +54,26 @@
       <section class="portfolio">
         <div class="container">
           <h1 class="visually-hidden">Portfolio</h1>
-          <ul class="list">
-            <li>
+          <ul class="button-list list">
+            <li class="item">
               <button type="button" class="button-filter button">All</button>
             </li>
-            <li>
+            <li class="item">
               <button type="button" class="button-filter button">
                 Web Site
               </button>
             </li>
-            <li>
+            <li class="item">
               <button type="button" class="button-filter button">Design</button>
             </li>
-            <li>
+            <li class="item">
               <button type="button" class="button-filter button">
                 Marketing
               </button>
             </li>
           </ul>
-          <ul class="list">
-            <li class="work">
+          <ul class="example-list list">
+            <li class="item">
               <img
                 src="./images/portfolio/portfolio1.jpg"
                 alt="banking app"
@@ -78,7 +82,7 @@
               <h2 class="example-title">Banking App Interface Concept</h2>
               <p class="example-type">App</p>
             </li>
-            <li class="work">
+            <li class="item">
               <img
                 src="./images/portfolio/portfolio2.jpg"
                 alt="cashless payment"
@@ -87,7 +91,7 @@
               <h2 class="example-title">Cashless Payment</h2>
               <p class="example-type">Marketing</p>
             </li>
-            <li class="work">
+            <li class="item">
               <img
                 src="./images/portfolio/portfolio3.jpg"
                 alt="meditation app"
@@ -96,7 +100,7 @@
               <h2 class="example-title">Meditation App</h2>
               <p class="example-type">App</p>
             </li>
-            <li class="work">
+            <li class="item">
               <img
                 src="./images/portfolio/portfolio4.jpg"
                 alt="taxi service"
@@ -105,7 +109,7 @@
               <h2 class="example-title">Taxi Service</h2>
               <p class="example-type">Marketing</p>
             </li>
-            <li class="work">
+            <li class="item">
               <img
                 src="./images/portfolio/portfolio5.jpg"
                 alt="screen illustrations"
@@ -114,7 +118,7 @@
               <h2 class="example-title">Screen Illustrations</h2>
               <p class="example-type">Design</p>
             </li>
-            <li class="work">
+            <li class="item">
               <img
                 src="./images/portfolio/portfolio6.jpg"
                 alt="online cources"
@@ -123,7 +127,7 @@
               <h2 class="example-title">Online Cources</h2>
               <p>Marketing</p>
             </li>
-            <li class="work">
+            <li class="item">
               <img
                 src="./images/portfolio/portfolio7.jpg"
                 alt="insta stories concept"
@@ -132,7 +136,7 @@
               <h2 class="example-title">Instagram Stories Concept</h2>
               <p class="example-type">Design</p>
             </li>
-            <li class="work">
+            <li class="item">
               <img
                 src="./images/portfolio/portfolio8.jpg"
                 alt="organic food"
@@ -141,7 +145,7 @@
               <h2 class="example-title">Organic Food</h2>
               <p class="example-type">Web Site</p>
             </li>
-            <li class="work">
+            <li class="item">
               <img
                 src="./images/portfolio/portfolio9.jpg"
                 alt="fresh coffee"
