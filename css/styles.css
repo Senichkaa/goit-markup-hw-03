@@ -406,7 +406,7 @@ img {
 }
 .example-title {
   margin-bottom: 0;
-  margin-left: 16px;
+  /* margin-left: 16px; */
 
   font-size: 20px;
   line-height: 1.2;
@@ -417,7 +417,7 @@ img {
 }
 .example-type {
   margin-top: 8px;
-  margin-left: 16px;
+  /* margin-left: 16px; */
 
   font-size: 16px;
   line-height: 1.5;
