@@ -211,7 +211,7 @@ img {
 
 /* FEATURE */
 
-.feature {
+.features {
   padding: 120px 0;
 }
 
@@ -254,6 +254,10 @@ img {
 .activity-list {
   display: flex;
   gap: 24px;
+}
+
+.activity-image {
+  width: calc((100% - 48px) / 3);
 }
 
 .work-title {
@@ -406,7 +410,6 @@ img {
 }
 .example-title {
   margin-bottom: 0;
-  /* margin-left: 16px; */
 
   font-size: 20px;
   line-height: 1.2;
@@ -417,7 +420,6 @@ img {
 }
 .example-type {
   margin-top: 8px;
-  /* margin-left: 16px; */
 
   font-size: 16px;
   line-height: 1.5;
